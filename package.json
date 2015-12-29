@@ -1,0 +1,44 @@
+{
+  "name": "redux-ducks",
+  "version": "0.1.0",
+  "description": "Redux toolset for isolating state as defined by ducks-modular-redux proposal.",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build:lib": "./node_modules/.bin/babel src --out-dir lib",
+    "check": "npm run lint",
+    "lint": "./node_modules/.bin/eslint src/",
+    "preversion": "npm run check",
+    "version": "npm run build:lib",
+    "postversion": "git push && git push --tags",
+    "prepublish": "npm run build:lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salsita/redux-ducks.git"
+  },
+  "keywords": [
+    "redux",
+    "ducks-modular-redux",
+    "ducks",
+    "local",
+    "state"
+  ],
+  "author": "Tomas Weiss <tomasw@salsitasoft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salsita/redux-ducks/issues"
+  },
+  "homepage": "https://github.com/salsita/redux-ducks#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "babel-eslint": "^4.1.3",
+    "babel-runtime": "^5.8.25",
+    "eslint": "^1.9.0"
+  }
+}
