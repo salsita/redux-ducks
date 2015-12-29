@@ -26,3 +26,7 @@ const topLevelReducer = buildDucksReducer(yourTopLevelReducer)(ducksReducer, ano
 
 const store = createStore(topLevelReducer);
 ```
+
+## Examples
+
+See examples in (react-redux-ducks repo)[https://github.com/salsita/react-redux-ducks].
