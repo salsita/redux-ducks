@@ -1,4 +1,5 @@
 const UNMOUNT_DUCKS_STATE = '@@UNOUNT_DUCKS_STATE@@';
+const MOUNT_DUCKS_STATE = '@@MOUNT_DUCKS_STATE@@';
 
 const isFunction = any => typeof any === 'function';
 
@@ -49,8 +50,11 @@ const buildDucksReducer = reducer => (...ducksReducers) => (appState = {ducks: {
 
 const unmountDucksState = () => ({type: UNMOUNT_DUCKS_STATE});
 
+const mountDucksState = () => ({type: MOUNT_DUCKS_STATE});
+
 export {
   bindDucksActionCreator,
   buildDucksReducer,
-  unmountDucksState
+  unmountDucksState,
+  mountDucksState
 };
