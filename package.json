@@ -1,6 +1,6 @@
 {
   "name": "redux-ducks",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Redux toolset for isolating state as defined by ducks-modular-redux proposal.",
   "main": "lib/index.js",
   "files": [
