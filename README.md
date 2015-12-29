@@ -2,6 +2,8 @@
 
 > Redux toolset for isolating state as defined by ducks-modular-redux proposal.
 
+**Don't use the package in production yet, it's just a proof of concept**
+
 State isolation implementation based on [ducks-modular-redux proposal](https://github.com/erikras/ducks-modular-redux).
 
 ## Usage
