@@ -29,4 +29,4 @@ const store = createStore(topLevelReducer);
 
 ## Examples
 
-See examples in (react-redux-ducks repo)[https://github.com/salsita/react-redux-ducks].
+See examples in [react-redux-ducks repo](https://github.com/salsita/react-redux-ducks).
