@@ -6,7 +6,7 @@ State isolation implementation based on [ducks-modular-redux proposal](https://g
 
 ## Usage
 
-The package simply provides `buildDucksReducer` the function takes your original top level reducer as first argument and returns another function which takes N ducks reducers. See example usage in [react-redux-ducks example](https://github.com/salsita/react-redux-ducks/blob/master/examples/counters/src/app.js#L10-L12).
+The package provides `buildDucksReducer`. The function takes your original top level reducer as first argument and returns another function which takes N ducks reducers. See example usage in [react-redux-ducks example](https://github.com/salsita/react-redux-ducks/blob/master/examples/counters/src/app.js#L10-L12).
 
 ```javascript
 import { createStore } from 'redux';
